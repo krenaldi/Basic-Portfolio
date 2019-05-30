@@ -54,7 +54,7 @@ header {
 .main-wrapper {
     width: 960px;
     background-color: #ffffff;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 25px 20px;
     border: 2px solid #dddddd;
     margin: 0 auto;
     margin-top: 10px;
