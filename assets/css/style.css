@@ -1,5 +1,6 @@
 body {
     background-image: url(../images/concrete_seamless.png);
+    overflow: auto;
 }
 
 h1{
@@ -26,11 +27,11 @@ p {
     padding: 10px;
     float: right;
 }
-a {
+a.link {
     text-decoration-line: none;
     color: #777777;
 }
-a:hover {
+a.link:hover {
     font-weight: bold;
 }
 header {
@@ -44,8 +45,6 @@ header {
     width: 960px;
     padding: 20px;
     margin: 0 auto;
-    overflow: auto;
-    clear: both;
 }
 .main-wrapper {
     width: 960px;
@@ -71,7 +70,30 @@ header {
     background-color: #666666;
     color: #ffffff;
     border-top: 5px solid #4aaaa5;
-    height: 75px;
+    height: 40px;
     text-align: center;
-    font-size: small;
+    font-size: x-small;
+    z-index: 2;
+}
+.portfolio-image {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px 30px 20px 0;
+    float: left;
+  }
+div.portfolio-banner {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 15px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 0;
+    margin-top: -75px;
+}
+div.portfolio-banner:hover {
+    background-color: #4882B8;
 }
