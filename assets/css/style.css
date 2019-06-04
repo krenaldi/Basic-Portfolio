@@ -29,22 +29,29 @@ header {
     float: left;
     text-align: center;
 }
-.navbar {
-    margin: 0;
-    padding: 10px;
+
+/* navbar */
+nav {
     float: right;
 }
-a {
-    text-decoration-line: none;
-    color: #ffffff; 
-}
-a.link {
-    text-decoration-line: none;
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
     color: #777777;
+    text-decoration-line: none;
+    border-left: 1px solid #efefef;
 }
-a.link:hover {
+
+/* removes left border from About link in navbar */
+nav a:first-child {
+  border-left: 0 none;
+}
+
+nav a:hover {
     font-weight: bold;
-}
+} 
 
 
 .wrapper {
